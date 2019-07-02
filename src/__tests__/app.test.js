@@ -19,8 +19,4 @@ describe('<App />', () => {
     const app = shallow(<App />);
     expect(app.find('Response')).toBeTruthy();
   });
-  it('has state for a response', () => {
-    const app = shallow(<App />);
-    expect(app.state('response')).toBeDefined();
-  });
 });

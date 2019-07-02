@@ -1,6 +1,6 @@
 import React from 'react';
-import Response from '../../../components/response/response.js';
-import App from '../../app.test';
+// import Response from '../../../components/response/response.js';
+import App from '../../../app.js';
 
 describe('<Response />', () => {
   it('takes in responseData as prop', () => {
